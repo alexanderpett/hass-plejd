@@ -14,16 +14,16 @@
   "dependencies": [
     "bluetooth_adapters"
   ],
-  "documentation": "https://github.com/thomasloven/hass_plejd",
+  "documentation": "https://github.com/alexanderpett/hass-plejd",
   "integration_type": "hub",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/thomasloven/hass_plejd/issues",
+  "issue_tracker": "https://github.com/alexanderpett/hass-plejd/issues",
   "loggers": [
     "pyplejd"
   ],
   "requirements": [
-    "pyplejd==0.21.3",
+    "pyplejd @ git+https://github.com/alexanderpett/pyplejd.git@ha-no-double-connect",
     "pydantic"
   ],
-  "version": "0.21.3"
+  "version": "0.21.3.post1"
 }
